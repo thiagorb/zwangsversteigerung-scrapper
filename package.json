@@ -1,0 +1,22 @@
+{
+  "name": "zwangsversteigerung_scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "csv-parser": "^3.0.0",
+    "escape-html": "^1.0.3",
+    "nodemailer": "^6.6.5",
+    "p-queue": "^7.1.0",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.3.3"
+  }
+}
